@@ -113,6 +113,24 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+  color: white;
+  font-size: 4em;
+  padding: 15px;
+  width: 100%;
+}
+
+main {
+  color: white;
+  font-size: 1.5em;
+  padding: 15px 15px 40px 15px;
+  margin-bottom: 40px;
+  border-bottom: solid white 2px;
+  width: 100%;
 }
 
 .div-1, .div-2, .div-3 {
@@ -123,14 +141,23 @@ body {
   font-weight: bold;
   height: 300px;
   display: flex;
-  width: 30%;
   justify-content: center;
   align-items: center;
+  width: 30%;
+  height: auto;
   padding-left: 25px;
+  margin-bottom: 40px
 }
 
 .div-2, .div-3 {
   border-left: 0.5px solid white;
+}
+
+footer {
+  color: white;
+  border-top: solid white 2px;
+  width: 100%;
+  padding: 40px 15px 15px 15px;
 }
 
 
